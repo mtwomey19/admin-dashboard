@@ -244,26 +244,39 @@ form button {
     grid-template-columns: 1fr;
     grid-template-rows: 9fr 1fr 9fr;
     gap: 15px;
+    padding-right: 15px;
 }
 
 .right-side-card {
-    background-color: #cbd5e1;    
+    background-color: #cbd5e1;
+    border-radius: 6px;    
+    box-shadow: 0 3px 3px 0 #94a3b8;
+    padding: 30px;
 }
 
 .announcement-container {
-    padding: 15px;
-
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 9px;
+    gap: 12px;
 }
 
 .announcement {
-    border-bottom: 1px solid black;
+    border-bottom: .6px solid black;
 }
 
 #btm-announcement {
     border-bottom: 0px;
+}
+
+.announcement-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.announcement-description {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .trending-header {
@@ -274,8 +287,6 @@ form button {
 }
 
 .trending-container {
-    padding: 15px;
-
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 9px;
