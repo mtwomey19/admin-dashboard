@@ -169,8 +169,18 @@ form button {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 21fr;
+    grid-template-rows: 1fr 12fr;
     gap: 15px;
+
+    padding-left: 15px;
+}
+
+.projects-header,
+.announcements-header {
+    padding-top: 24px;
+    align-self: center;
+    font-size: 21px;
+    font-weight: 400;
 }
 
 .projects-header {
