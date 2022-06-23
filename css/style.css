@@ -48,7 +48,7 @@ body, html {
     background-color: #e2e8f0;
     grid-column-start: 2;
 
-    padding: 9px;
+    padding: 12px 12px 12px 36px;
 
     display: grid;
     grid-template-columns: 2.4fr 1fr;
@@ -97,12 +97,12 @@ form button {
     align-items: center;
 }
 
-#notification-icon {
+.notification-icon {
     height: 24px;
     width: 24px;
 }
 
-#main-profile-icon {
+.main-profile-icon {
     height: 30px;
     width: 30px;
 
@@ -112,6 +112,27 @@ form button {
 .full-name {
     font-weight: bold;
     font-size: 18px;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    gap: 3px;
+    align-items: center;
+}
+
+.greeting .main-profile-icon {
+    grid-row: 1 / 3;
+    height: 45px;
+    width: 45px;
+}
+
+.greeting-first-line {
+    font-size: 15px;
+}
+
+.greeting-second-line {
+    font-size: 24px;
 }
 
 .main-content-area {
