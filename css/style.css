@@ -56,6 +56,41 @@ body, html {
     gap: 9px;
 }
 
+form {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    all: unset;
+    height: 100%;
+    width: 60%;
+    padding-left: 15px;
+    border-radius: 9px;
+    font: 15px system-ui;
+    color:#0f172a;
+    background-color: #f1f5f9;
+}
+
+::placeholder {
+    color: #0f172a;
+    opacity: 0.72;
+}
+
+form button {
+    all: unset;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#search-icon {
+    color: #0f172a;
+    width: 30px;
+    height: 30px;
+}
+
 .main-content-area {
     grid-column-start: 2;
 
