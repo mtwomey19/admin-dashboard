@@ -26,6 +26,13 @@ body, html {
 .header {
     background-color: #e2e8f0;
     grid-column-start: 2;
+
+    padding: 9px;
+
+    display: grid;
+    grid-template-columns: 2.4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 9px;
 }
 
 .main-content-area {
