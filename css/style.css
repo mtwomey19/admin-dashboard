@@ -116,3 +116,16 @@ body, html {
     display: flex;
     align-items: flex-end;
 }
+
+.trending-container {
+    padding: 15px;
+
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 9px;
+}
+
+.user {
+    display: flex;
+    gap: 15px;
+}
