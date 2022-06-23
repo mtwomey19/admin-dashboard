@@ -81,6 +81,16 @@ body, html {
 
 .project-card {
     background-color: #cbd5e1;
+    padding: 15px;
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 3px;
+}
+
+.project-card-btns {
+    align-self: end;
+    justify-self: end;
 }
 
 .right-side-bar {
