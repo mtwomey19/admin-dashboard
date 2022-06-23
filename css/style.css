@@ -94,6 +94,22 @@ body, html {
     background-color: #cbd5e1;    
 }
 
+.announcement-container {
+    padding: 15px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 9px;
+}
+
+.announcement {
+    border-bottom: 1px solid black;
+}
+
+#btm-announcement {
+    border-bottom: 0px;
+}
+
 .trending-header {
     padding-top: 9px;
 
