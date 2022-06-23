@@ -113,8 +113,6 @@ form button {
 .main-profile-icon {
     height: 30px;
     width: 30px;
-
-    filter: invert(37%) sepia(90%) saturate(3787%) hue-rotate(17deg) brightness(96%) contrast(101%);
 }
 
 .full-name {
@@ -199,16 +197,41 @@ form button {
 
 .project-card {
     background-color: #cbd5e1;
-    padding: 15px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 3px 3px 0 #94a3b8;
 
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
     gap: 3px;
 }
 
+.project-card-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-card-description {
+    font-size: 15px;
+}
+
 .project-card-btns {
     align-self: end;
     justify-self: end;
+    display: flex;
+    gap: 12px;
+}
+
+.project-card-btns button {
+    all: unset;
+    cursor: pointer;
+}
+
+.star img,
+.view img,
+.share img {
+    width: 21px;
+    height: 21px;
 }
 
 .right-side-bar {
