@@ -105,6 +105,11 @@ form button {
     gap: 6px;
 }
 
+.account-signed-in button {
+    all: unset;
+    cursor: pointer;
+}
+
 .notification-icon {
     height: 24px;
     width: 24px;
@@ -115,7 +120,7 @@ form button {
     width: 30px;
 }
 
-.full-name {
+.account-signed-in .full-name {
     font-weight: bold;
     font-size: 18px;
 }
