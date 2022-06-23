@@ -281,6 +281,7 @@ form button {
 
 .trending-header {
     padding-top: 9px;
+    font-size: 21px;
 
     display: flex;
     align-items: flex-end;
@@ -289,10 +290,24 @@ form button {
 .trending-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    gap: 9px;
+    gap: 12px;
 }
 
 .user {
     display: flex;
     gap: 15px;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+}
+
+.user-info .handle {
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+.user-info .project {
+    font-size: 13.5px;
 }
