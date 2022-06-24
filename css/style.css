@@ -84,6 +84,15 @@ body, html {
     color: #f8fafc;
 }
 
+a:link, a:visited {
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+a:active {
+    font-weight: normal;
+}
+
 .header {
     background-color: #f8fafc;
     grid-column-start: 2;
@@ -211,6 +220,10 @@ form button {
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+}
+
+.header-btns button:active {
+    filter: brightness(1.20);
 }
 
 .main-content-area {
