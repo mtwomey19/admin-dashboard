@@ -22,12 +22,28 @@ body, html {
 }
 
 .sidebar-content-container {
-    height: 72%;
-    padding: 15px;
+    height: clamp(540px, 60%, 720px);
+    padding: 9px 15px 15px 15px;
 
     display: grid;
     grid-template-rows: 1fr 6fr 3fr;
+    gap: 30px;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
     gap: 15px;
+}
+
+.sidebar-header img {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-header p {
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .sidebar-mid-btns {
@@ -42,11 +58,27 @@ body, html {
     gap: 3px;
 }
 
+.sidebar-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.sidebar-item img {
+    width: 21px;
+    height: 21px;
+}
+
+.sidebar-item p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .header {
     background-color: #fff;
     grid-column-start: 2;
 
-    padding: 12px 12px 12px 36px;
+    padding: 15px 15px 15px 30px;
     box-shadow: 0 3px 3px 0 #cbd5e1;
 }
 
@@ -59,8 +91,8 @@ body, html {
 .btm-row-header {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 15px;
+    grid-template-columns: minmax(360px, 1.5fr) 1fr;
+    gap: 60px;
 }
 
 form {
